@@ -1,0 +1,11 @@
+0. an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust,longest word in english
+1. returns resource usage measures 
+2. 16 variable
+3. to save memory and cpu usage
+4. it uses the file pointer whick points at the beginning of the file and it uses fgetc() in the for loop to read the next character from fp and returns it as an unsigned char cast to an int, tell the end of file
+5. because we are not sure of the length of every word so this may result in buffer over flow if we had a word longer than the array we declared
+6. to prevent making any changes to them
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO

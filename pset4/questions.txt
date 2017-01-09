@@ -1,0 +1,18 @@
+0- png and jpeg support up to "24 bits" 16 million colors,bmp support up to "32 bits" 4 billion colors,Gifs support up to "8 bits" 256 colors
+1. Gifs support animation
+2. lossy compression loses data from the original lossless compression restors all the data from compression
+3. Jpegs are lossy compressed
+4. deleting a file mean rewriting the metadata that pinted to the file
+5. is someone needs to delete data with high probability of not being recovered he can use sanitization tool which usually overwrites it 
+6. stdint is library that orovides "typedef"
+7. they data types that assign which data you want to use and every data type has it's own specific //value
+8. BYTE has is one byte - DWORD is 4 bytes - LONG is 4 byes - WORD is 2 bytes
+9. character 'B' and 'M'
+10. bisize is number of bytes of image and bfsize is the size of the whole file
+11. bihieght is negative means its a top down DIB with origin of upper left corner
+12. RGBTRIBLE
+13. if the file isn't created
+14. because we want to read the sizeof only once
+15. padding will equal 3
+16. move pointer to another location in file
+17. argument in fseek..current position of file pointer
